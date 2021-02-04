@@ -15,10 +15,10 @@
  * maximum, minimum, mean, and median of the data set. The data set is ordered 
  * from large to small. All statistics should be rounded down to the nearest integer. 
  * The data should be printed to the screen in nicely formatted presentation.
- *
+ 
  * @author <Nahed Touati>
  * @date <04 February 2021>
- *
+ 
  */
 #ifndef __STATS_H__
 #define __STATS_H__
@@ -33,7 +33,7 @@
  * @param data 	Char data array
  * @param len 	Array length	
  *
- * @returns The data minimum value
+ * @return The data minimum value
  */
 
 
@@ -47,7 +47,7 @@
  * @param data 	Char data array
  * @param len 	Array length	
  *
- * @returns The data maximum value
+ * @return The data maximum value
  */
 
    unsigned char find_mean(unsigned char *T, int N);
@@ -59,7 +59,7 @@
  * @param data 	Char data array
  * @param len 	Array length	
  *
- * @returns The data mean value
+ * @return The data mean value
  */
 
  unsigned char find_median(unsigned char *T, int N);
@@ -71,7 +71,7 @@
  * @param data 	Char data array
  * @param len 	Array length	
  *
- * @returns The data median value
+ * @return The data median value
  */
 
  void print_statistics(unsigned char min,unsigned char max,unsigned char mean,unsigned char median);
@@ -83,7 +83,7 @@
  * @param data 	Char data array
  * @param len 	Array length	
  *
- * @returns void
+ * @return void
  */ 
  void print_array(unsigned char *T, int N);
 /**
@@ -97,7 +97,7 @@
  * @param maximum 	Maximum value	
  * @param minimum 	Minimum value	
  *
- * @returns void
+ * @return void
  */
 
  unsigned char sort_array(unsigned char *T, int N);
@@ -111,7 +111,7 @@
  * @param data 	Char data array
  * @param len 	Array length	
  *
- * @returns void
+ * @return void
  */
  
 

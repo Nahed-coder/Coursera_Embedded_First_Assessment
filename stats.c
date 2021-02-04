@@ -129,11 +129,11 @@ mean=find_mean(test,SIZE);
 median=find_median(test,SIZE);
 
 print_statistics(min,max,mean,median);
-printf("unordered array ");
+printf("unordered array : ");
 print_array(test,SIZE);
 
 sort_array(test,SIZE);
-printf("ordered array ");
+printf("ordered array : ");
 print_array(test,SIZE);
 
 }
